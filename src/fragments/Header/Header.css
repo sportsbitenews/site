@@ -330,7 +330,7 @@ $lineHeight: 2px;
   }
 }
 .modalWrapper {
-  padding: 2rem;
+  padding: 1.5rem;
   ;
 
   @media screen and (min-width: 768px) {
@@ -339,8 +339,8 @@ $lineHeight: 2px;
 }
 .modalClose {
   position: absolute;
-  top: 0;
-  right: 2rem;
+  top: -1rem;
+  right: -0.5rem;
   width: 5rem;
   font-size: 5rem;
   cursor: pointer;
@@ -354,11 +354,16 @@ $lineHeight: 2px;
   font-family: Serverless, monospace;
 }
 .modalText {
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-  text-align: justify;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   font-weight: 300;
   color: #4B4B4B;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-align: justify;
+  }
 }
 .modalForm {
   max-width: 32rem;
