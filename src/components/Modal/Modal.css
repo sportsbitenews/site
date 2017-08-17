@@ -65,6 +65,7 @@ $dialog-translate-y: 4rem;
   flex-grow: 2;
   padding: $dialog-content-padding;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   color: #000;
 }
 
